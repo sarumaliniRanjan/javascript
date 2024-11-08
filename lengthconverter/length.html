@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="length.css">
+</head>
+<body>
+    
+    <div id="overall">
+       
+           
+        <h2 id="title">CM To Inch</h2>
+        <div id="box">
+            <input id="cmval" type="text" placeholder="enter value in cm">
+        </div>
+        <div id="btn">
+            <button  type="submit" onclick="fun()">convert</button>
+        </div>
+        <div id="res">
+
+        </div>
+    </div>
+    <script>
+        function fun(){
+            let cmval=document.getElementById("cmval").value
+            let inchval=cmval/2.54
+            let res=document.getElementById("res")
+            res.innerHTML=inchval.toFixed(3)+"inches"
+        }
+    </script>
+    
+</body>
+</html>
