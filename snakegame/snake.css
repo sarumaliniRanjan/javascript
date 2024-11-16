@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:darkcyan;
+    text-align: center;
+    
+}
+h1{
+    margin-top: 10px;
+    color:rgb(246, 255, 0) ;
+    text-shadow:aqua;
+    letter-spacing: 1px;
+ 
+
+}
+#msg{
+    margin-top:20px;
+    margin-bottom: 20px;
+    color:goldenrod;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+
+}
+#gameboard{
+    border: 2px solid whitesmoke;
+}
+#score{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
